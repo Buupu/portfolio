@@ -1,12 +1,12 @@
-import { Box, Heading, Text, SimpleGrid, Link } from "@chakra-ui/react";
-import ProjectCard from "components/ProjectCard";
+import { Box, Heading, Text, SimpleGrid, Link } from '@chakra-ui/react';
+import ProjectCard from 'components/ProjectCard';
 export default function Projects() {
   return (
-    <Box pb={6} textAlign="center">
+    <Box mb="120px" textAlign="center">
       <Heading as="h2" fontSize="x-large" mb={6}>
         My Projects
       </Heading>
-      <Text fontSize={["12px", "14px"]} maxW="600px" margin="auto" mb={20}>
+      <Text fontSize={['12px', '14px']} maxW="600px" margin="auto" mb={20}>
         Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
         sint. Velit officia consequat duis enim velit mollit. Exercitation
         veniam consequat sunt nostrud amet.
@@ -41,7 +41,7 @@ export default function Projects() {
         />
       </SimpleGrid>
       <Box mt={3} textAlign="right" fontSize="12px">
-        <Link>View more on Github {">"}</Link>
+        <Link>View more on Github {'>'}</Link>
       </Box>
     </Box>
   );
