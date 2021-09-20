@@ -1,6 +1,6 @@
-import { Flex, Heading } from "@chakra-ui/react";
-import ScrollIndicator from "components/ScrollIndicator";
-import { motion } from "framer-motion";
+import { Flex, Heading } from '@chakra-ui/react';
+import ScrollIndicator from 'components/ScrollIndicator';
+import { motion } from 'framer-motion';
 
 export default function Intro() {
   const MotionHeading = motion(Heading);
@@ -9,7 +9,7 @@ export default function Intro() {
       <MotionHeading
         as="h3"
         color="primary"
-        fontSize={["12px", "12px", "14px"]}
+        fontSize={['12px', '12px', '14px']}
         letterSpacing="wide"
         fontWeight="bold"
         initial={{ opacity: 0, y: -15 }}
@@ -20,21 +20,21 @@ export default function Intro() {
       </MotionHeading>
       <MotionHeading
         as="h1"
-        fontSize={["42px", "54px", "74px"]}
+        fontSize={['38px', '54px', '74px']}
         letterSpacing="wide"
         mb={2}
         initial={{ opacity: 0, y: -15 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{
           delay: 0.5,
-          duration: 0.5,
+          duration: 0.5
         }}
       >
         Sammy Fattah
       </MotionHeading>
       <MotionHeading
         as="h2"
-        fontSize={["14px", "18px", "20px"]}
+        fontSize={['14px', '18px', '20px']}
         letterSpacing="wide"
         fontWeight="normal"
         mb={20}
