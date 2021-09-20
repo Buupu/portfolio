@@ -3,14 +3,18 @@ import { HiOutlineMail } from "react-icons/hi";
 
 export default function Header() {
   return (
-    <Flex w="full" justify="space-between" align="center" py={3}>
-      <Link fontSize={["14px", "16px", "18px"]}>
+    <Flex
+      w="full"
+      justify="space-between"
+      align="center"
+      py={3}
+      fontSize={["14px", "16px"]}
+    >
+      <Link>
         <Icon as={HiOutlineMail} mr={3} />
         sammyfattah@gmail.com
       </Link>
-      <Link color="primary" fontSize={["14px", "16px", "18px"]}>
-        Resumé
-      </Link>
+      <Link color="primary">Resumé</Link>
     </Flex>
   );
 }

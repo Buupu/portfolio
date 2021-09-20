@@ -3,7 +3,7 @@ import ScrollIndicator from "./ScrollIndicator";
 
 export default function Intro() {
   return (
-    <Flex flexDirection="column" w="full" height="80vh" justifyContent="center">
+    <Flex flexDirection="column" w="full" height="85vh" justifyContent="center">
       <Heading
         as="h3"
         color="primary"
