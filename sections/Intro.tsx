@@ -14,7 +14,7 @@ export default function Intro() {
         fontWeight="bold"
         initial={{ opacity: 0, y: -15 }}
         animate={{ opacity: 1, y: 0 }}
-        transition={{ delay: 0.25, duration: 0.5, ease: "ease" }}
+        transition={{ delay: 0.25, duration: 0.5 }}
       >
         FRONT-END DEVELOPER
       </MotionHeading>
@@ -28,7 +28,6 @@ export default function Intro() {
         transition={{
           delay: 0.5,
           duration: 0.5,
-          ease: "ease",
         }}
       >
         Sammy Fattah
@@ -41,7 +40,7 @@ export default function Intro() {
         mb={20}
         initial={{ opacity: 0, y: -15 }}
         animate={{ opacity: 1, y: 0 }}
-        transition={{ delay: 0.75, duration: 0.5, ease: "ease" }}
+        transition={{ delay: 0.75, duration: 0.5 }}
       >
         Developing with React, Typescript, Next.js, Redux & More
       </MotionHeading>

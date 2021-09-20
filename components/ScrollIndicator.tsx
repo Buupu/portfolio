@@ -9,7 +9,7 @@ export default function ScrollIndicator() {
       align="center"
       initial={{ opacity: 0, y: -15 }}
       animate={{ opacity: 1, y: 0 }}
-      transition={{ delay: 1.25, duration: 0.5, ease: "easeInOut" }}
+      transition={{ delay: 1.25, duration: 0.5 }}
     >
       <Box
         h="45px"
