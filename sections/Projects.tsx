@@ -1,4 +1,4 @@
-import { Box, Heading, Text, SimpleGrid } from "@chakra-ui/react";
+import { Box, Heading, Text, SimpleGrid, Link } from "@chakra-ui/react";
 import ProjectCard from "components/ProjectCard";
 export default function Projects() {
   return (
@@ -40,6 +40,9 @@ export default function Projects() {
           technologies={[]}
         />
       </SimpleGrid>
+      <Box mt={3} textAlign="right" fontSize="12px">
+        <Link>View more on Github {">"}</Link>
+      </Box>
     </Box>
   );
 }

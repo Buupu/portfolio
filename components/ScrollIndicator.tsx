@@ -3,8 +3,14 @@ import { motion } from "framer-motion";
 
 export default function ScrollIndicator() {
   const MotionBox = motion(Box);
+  const MotionFlex = motion(Flex);
   return (
-    <Flex align="center">
+    <MotionFlex
+      align="center"
+      initial={{ opacity: 0, y: -15 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ delay: 1.25, duration: 0.5, ease: "easeInOut" }}
+    >
       <Box
         h="45px"
         w="20px"
@@ -25,6 +31,6 @@ export default function ScrollIndicator() {
       <Text color="primary" fontSize="sm">
         Learn more..
       </Text>
-    </Flex>
+    </MotionFlex>
   );
 }

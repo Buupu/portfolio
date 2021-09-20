@@ -57,7 +57,7 @@ export default function ProjectCard({
           textAlign="right"
           w="100%"
         >
-          View Demo &gt;
+          View Demo {">"}
         </Link>
       </Flex>
       <HStack justify="flex-end" mt={3}>
