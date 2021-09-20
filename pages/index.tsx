@@ -1,8 +1,9 @@
 import { Box } from "@chakra-ui/react";
 import type { NextPage } from "next";
-import Header from "components/Header";
-import Intro from "components/Intro";
-import Experience from "components/Experience";
+import Header from "sections/Header";
+import Intro from "sections/Intro";
+import Experience from "sections/Experience";
+import Projects from "sections/Projects";
 
 const Home: NextPage = () => {
   return (
@@ -10,6 +11,7 @@ const Home: NextPage = () => {
       <Header />
       <Intro />
       <Experience />
+      <Projects />
     </Box>
   );
 };

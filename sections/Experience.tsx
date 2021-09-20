@@ -1,10 +1,10 @@
 import { Box, Heading, Text, VStack, HStack } from "@chakra-ui/react";
-import Arrow from "./Arrow";
-import Job from "./Job";
+import Arrow from "components/Arrow";
+import Job from "components/Job";
 
 export default function Experience() {
   return (
-    <Box textAlign="center" maxW="550px" margin="auto" pb={6}>
+    <Box textAlign="center" maxW="550px" margin="auto" pb={20}>
       <Heading as="h2" fontSize="x-large" mb={6}>
         Experience
       </Heading>

@@ -1,5 +1,5 @@
 import { Flex, Heading } from "@chakra-ui/react";
-import ScrollIndicator from "./ScrollIndicator";
+import ScrollIndicator from "components/ScrollIndicator";
 
 export default function Intro() {
   return (
