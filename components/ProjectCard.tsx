@@ -73,7 +73,7 @@ export default function ProjectCard({
         </Flex>
         <HStack justify="flex-end" mt={3} maxW="100%" flexWrap="wrap">
           {technologies.map((tech) => (
-            <Box pt={1}>
+            <Box pt={1} key={`project-card-badge-${title}-${tech}`}>
               <Badge
                 color="primary"
                 textTransform="none"
