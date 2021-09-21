@@ -40,7 +40,7 @@ export default function ProjectCard({
         flexDirection="column"
         cursor="pointer"
         minH="260px"
-        _hover={{ borderColor: "primary" }}
+        _hover={{ borderColor: ["lightGray", "lightGray", "primary"] }}
         transition="0.3s ease-out"
       >
         <Flex justify="space-between" mb={4}>
