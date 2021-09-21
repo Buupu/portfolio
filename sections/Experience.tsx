@@ -25,19 +25,19 @@ export default function Experience() {
         <Arrow />
         <Job
           title="Freelance Web Development"
-          timePeriod="FEB 2021 TO PRESENT"
+          timePeriod="AUG 2020 TO PRESENT"
           description="consequat pariatur et occaecat. Occaecat veniam qui officia tempor dolor consectetur aute laborum ea sunt fugiat magna ad id. Magna laboris excepteur nulla tempor ad in proident id do. Dolor aute tempor ullamco"
         />
         <Arrow />
         <Job
           title="Mott MacDonald"
-          timePeriod="FEB 2021 TO PRESENT"
+          timePeriod="JUL 2019 TO AUG 2020"
           description="consequat pariatur et occaecat. Occaecat veniam qui officia tempor dolor consectetur aute laborum ea sunt fugiat magna ad id. Magna laboris excepteur nulla tempor ad in proident id do. Dolor aute tempor ullamco"
         />
         <Arrow />
         <Job
           title="JPMorgan & Chase"
-          timePeriod="FEB 2021 TO PRESENT"
+          timePeriod="JUL 2018 TO AUG 2018"
           description="consequat pariatur et occaecat. Occaecat veniam qui officia tempor dolor consectetur aute laborum ea sunt fugiat magna ad id. Magna laboris excepteur nulla tempor ad in proident id do. Dolor aute tempor ullamco"
         />
       </VStack>
