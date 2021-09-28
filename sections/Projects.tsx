@@ -11,6 +11,13 @@ export default function Projects() {
       </Text>
       <SimpleGrid columns={[1, 1, 3]} spacing="30px">
         <ProjectCard
+          title="Chakra OTP Input"
+          description="One Time Password Component Package for Chakra UI."
+          githubLink="https://github.com/Buupu/chakra-otp-input"
+          demoLink="https://githubbox.com/Buupu/chakra-otp-input/tree/main/demo"
+          technologies={["Chakra Ui", "NPM", "Typescript"]}
+        />
+        <ProjectCard
           title="Airbnb clone"
           description="A project cloning the home and search page of the popular property rental site Airbnb."
           githubLink="https://github.com/Buupu/airbnb"
@@ -23,13 +30,6 @@ export default function Projects() {
           githubLink="https://github.com/Buupu/rick-and-morty"
           demoLink="https://rick-and-morty-3nyfhtkn3-buupu.vercel.app/"
           technologies={["Apollo Client", "GraphQL", "Next.js", "Chakra Ui"]}
-        />
-        <ProjectCard
-          title="Tesla clone"
-          description="A clone of the Tesla homepage created for a youtube tutorial on Chakra Ui."
-          githubLink="https://github.com/Buupu/tesla"
-          demoLink="https://tesla-5vnhdcna2-buupu.vercel.app/"
-          technologies={["Chakra Ui", "Framer Motion", "useIntersection"]}
         />
       </SimpleGrid>
       <Box mt={3} textAlign="right" fontSize="12px" fontWeight="bold">
