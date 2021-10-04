@@ -28,7 +28,7 @@ export default function Education() {
           uni="Glasgow Clyde College"
           course="HNC Computing"
           grade="Grade A"
-          timePeriod="Aug 2014 - Junge 2015"
+          timePeriod="Aug 2014 - June 2015"
         />
       </VStack>
     </Box>

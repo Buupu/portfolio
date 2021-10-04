@@ -14,9 +14,7 @@ export default function EducationCard({
 }) {
   return (
     <Box w="full" textAlign={reserveAlignment ? "right" : "left"}>
-      <Text fontWeight="bold" fontSize={["12px", "14px", "16px"]} mb={3}>
-        {course}
-      </Text>
+      <Text fontSize={["12px", "14px", "16px"]}>{course}</Text>
       <Heading
         as="h2"
         color="primary"
