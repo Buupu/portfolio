@@ -13,7 +13,7 @@ export default function Experience() {
         versions of the library with a deep knowledge of functional components
         and hooks. Experienced with a variety of libraries, tools and frameworks
         for server side rendering, state management, interacting with
-        RESful/non-RESTful APIs and automated testing.
+        RESTful/non-RESTful APIs and automated testing.
       </Text>
       <VStack w="100%" spacing="30px">
         <Job
